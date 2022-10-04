@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TarjetaCredito } from './models/TarjetaCredito';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '14-tarjeta-credito';
+  title = 'tarjeta-credito';
+  listadoTarjetaCredito:TarjetaCredito[]=[];
+
+  agregarTarjeta(tarjeta:any){
+    this.listadoTarjetaCredito.push(tarjeta);
+    //console.log(this.listadoTarjetaCredito);
+  }
+
 }

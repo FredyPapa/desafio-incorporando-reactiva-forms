@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tarjetacreditofp": {
+      "hosting": {
+        "14-tarjeta-credito": [
+          "tarjetacreditofp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tarjetacreditofp"
+  }
+}
